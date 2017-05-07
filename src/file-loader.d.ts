@@ -1,4 +1,4 @@
-declare module "file-loader?name=[name].js!*" {
+declare module "*.worker" {
     const value: string;
     export = value;
 }
