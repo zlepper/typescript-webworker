@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": [
+      "webworker",
+      "es6",
+      "scripthost"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
